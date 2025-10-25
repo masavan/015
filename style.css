@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@layer base {
+    .p{
+        @apply text-white   ;
+
+    }
+}
+@layer components {
+    .btn{
+        @apply bg-white rounded p-2 ;
+    }
+}
