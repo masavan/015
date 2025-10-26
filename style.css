@@ -1,12 +1,16 @@
 @import "tailwindcss";
-@layer base {
+@tailwind utilities;
+
     .p{
         @apply text-white   ;
 
     }
-}
-@layer components {
+
     .btn{
         @apply bg-white rounded p-2 ;
+        &.before{
+        background: src("./img/free-ic");
     }
-}
+
+    }
+
